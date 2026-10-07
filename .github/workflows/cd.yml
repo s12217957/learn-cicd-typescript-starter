@@ -7,8 +7,7 @@ on:
 jobs:
   deploys:
     name: Deploy
-
-   steps:
+    steps:
       - name: Check out code
         uses: actions/checkout@v6
 
@@ -22,4 +21,3 @@ jobs:
 
       - name: Build
         run: npm run build
-
